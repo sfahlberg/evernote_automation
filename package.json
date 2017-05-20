@@ -1,0 +1,10 @@
+{
+  "name": "evernote-sdk-sample-node",
+  "description": "Evernote SDK sample for Node.js",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "evernote": "2.0.0-beta",
+    "lodash": "^4.17.4"
+  }
+}
