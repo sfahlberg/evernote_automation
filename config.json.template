@@ -1,0 +1,7 @@
+{
+  "API_CONSUMER_KEY" : "api_consumer_key_goes_here",
+  "API_CONSUMER_SECRET" : "api_consumer_secret_goes_herer",
+  "TOKEN" : "token_goes_here",
+  "SANDBOX" : false,
+  "CHINA" : false
+}

@@ -1,10 +1,10 @@
 {
-  "name": "evernote-sdk-sample-node",
-  "description": "Evernote SDK sample for Node.js",
+  "name": "evernote_automator",
+  "description": "Automate a lot of my repetitive tasks from evernote",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "evernote": "2.0.0-beta",
+    "evernote": "^2.0.1-beta",
     "lodash": "^4.17.4"
   }
 }
