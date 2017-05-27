@@ -2,7 +2,6 @@ var Evernote = require('evernote');
 var config = require('./config.json');
 var without = require('lodash/without');
 
-
 var zeroTodayGuid;
 var oneTomorrowGuid;
 var oneTomorrowString = '1-tomorrow';

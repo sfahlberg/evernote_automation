@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "eslint": "^3.19.0",
     "evernote": "^2.0.1-beta",
     "lodash": "^4.17.4"
   }
