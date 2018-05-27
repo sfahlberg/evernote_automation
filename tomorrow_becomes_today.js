@@ -1,5 +1,5 @@
+require('dotenv').config()
 var Evernote = require('evernote');
-var config = require('./config.json');
 var without = require('lodash/without');
 
 var zeroTodayGuid;
@@ -7,10 +7,14 @@ var oneTomorrowGuid;
 var oneTomorrowString = '1-tomorrow';
 var zeroTodayString = '0-today';
 
+console.log(process.env);
+
 var client = new Evernote.Client({
-  token: config.TOKEN,
-  sandbox: config.SANDBOX,
-  china: config.CHINA
+  consumerKey: process.env.API_CONSUMER_KEY,
+  consumerSecret: process.env.API_CONSUMER_SECRET,
+  token: process.env.TOKEN,
+  sandbox: false,
+  china: false
 });
 
 var noteStore = client.getNoteStore();

@@ -3,11 +3,10 @@ Evernote Manager App
 
  # Setup
 
- * Fill your token, API Consumer Key and Consumer Secret in config.json
- * `yarn install`
- * `node app.js`
- * fill out your config.json using the template provided, then rename it
-  to config.json
+ * Fill your token, API Consumer Key and Consumer Secret in .env
+ * `brew install yarn`
+ * `yarn`
+ * `node tomorrow_becomes_today.js`
 
  # Links
 
