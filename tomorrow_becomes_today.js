@@ -7,8 +7,6 @@ var oneTomorrowGuid;
 var oneTomorrowString = '1-tomorrow';
 var zeroTodayString = '0-today';
 
-console.log(process.env);
-
 var client = new Evernote.Client({
   consumerKey: process.env.API_CONSUMER_KEY,
   consumerSecret: process.env.API_CONSUMER_SECRET,
